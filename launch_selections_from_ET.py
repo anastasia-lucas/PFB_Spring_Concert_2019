@@ -24,9 +24,9 @@ for line in fr.xreadlines():
 init()
 
 print("\n")
-print(" ------------------------------------------------")
+print("+------------------------------------------------+")
 print("| SONG                               |    STATUS |")
-print(" ------------------------------------------------")
+print("+------------------------------------------------+")
 print("| Also Sprach Zarathustra            | COMPLETED |")
 print("| Selections from ET                 |       RUN |")
 print("| We Seven                           |   PENDING |")
@@ -36,9 +36,9 @@ print("| Twelve Seconds to the Moon         |   PENDING |")
 print("| Doctor Who: Through Space and Time |   PENDING |")
 print("| Through the Rings of Saturn        |   PENDING |")
 print("| Life on Mars                       |   PENDING |")
-print(" ------------------------------------------------")
+print("+------------------------------------------------+")
 print("| CONCERT PROGRESS                   |       11% |")
-print(" ------------------------------------------------\n")
+print("+------------------------------------------------+\n")
 
 def tprint(words):
     for char in words:
