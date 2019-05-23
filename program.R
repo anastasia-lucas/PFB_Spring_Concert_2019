@@ -22,9 +22,7 @@ get_song("Doctor Who: Through Space and Time", "Murray Gold/ arr. Buckley")
 get_song("Through the Rings of Saturn", "Ben Kirby")
 get_song("Life on Mars", "David Bowie/ arr. Bernaerts")
 
-i <- 3
-while(i > 0){
+for i in c(3,2,1){
 	print(i)
-	i <- i - 1
 }
 print("Blast off!")
